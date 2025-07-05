@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/src/style.css" />
-		<title>Photo Generator</title>
-	</head>
-	<body>
-		<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
-			<div class="text-center d-flex flex-column">
-			  <h2 class=" text-primary">Photo Generator</h2>
-			  <img src="src/photo/photo-1.jpg" alt="Rasm" class="img-fluid rounded shadow mb-4 photo" />
-			  <button class="btn btn-primary px-4 py-2">Start</button>
-			</div>
-		  </div>
-		<script type="module" src="/src/main.ts"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Examine-6</title>
+  </head>
+  <body>
+    <div class="container">
+      <button class="btn previous-btn">Previous</button>
+      <img
+        src="src/photo/photo-1.jpg"
+        alt="Rasm"
+        class="photo"
+      />
+      <button class="btn next-btn">Next</button>
+	  <button class="btn btn-animation">Start Animation</button>
+    </div>
+	
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
