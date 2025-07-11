@@ -1,0 +1,83 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .logo {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__text {
+      background-image: url("../../public/photo/blue-1142745_960_720.webp");
+      background-size: cover;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 24px;
+    }
+  }
+  .pages {
+    display: flex;
+    align-items: center;
+    &__list {
+      display: flex;
+      list-style: none;
+      gap: 25px;
+    }
+    &__item {
+      font-size: 18px;
+      color: #333;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    &__link {
+      color: #666666;
+      text-decoration: none;
+    }
+  }
+  .burger {
+    display: hidden;
+  }
+}
+
+// Media queries for responsive design
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    justify-content: space-between;
+    padding: 15px;
+    .pages {
+      display: none;
+    }
+
+    .burger {
+      display: block;
+      cursor: pointer;
+      &__line {
+        width: 30px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}
+@media (min-width: 577px) {
+  .navbar {
+    padding: 10px;
+    .burger {
+      display: none;
+    }
+    .pages {
+      display: flex;
+    }
+  }
+}

@@ -4,21 +4,47 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/style.css" />
-    <title>Examine-6</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <title>Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <button class="btn previous-btn">Previous</button>
-      <img
-        src="src/photo/photo-1.jpg"
-        alt="Rasm"
-        class="photo"
-      />
-      <button class="btn next-btn">Next</button>
-	  <button class="btn btn-animation">Start Animation</button>
-    </div>
-	
+    <!-- NAVBAR -->
+     <nav class="navbar container">
+     
+        <div class="logo">
+          <p class="logo__text">ISMOILOV</p>
+        </div>
+        <div class="burger">
+          <div class="burger__line"></div>
+          <div class="burger__line"></div>
+          <div class="burger__line"></div>
+        </div>
+        <div class="pages">
+          <ul class="pages__list">
+            <li class="pages__item"><a class="pages__link" href="#about">About</a></li>
+            <li class="pages__item"><a class="pages__link" href="#skills">Skills</a></li>
+            <li class="pages__item"><a class="pages__link" href="#projects">Projects</a></li>
+            <li class="pages__item"><a class="pages__link" href="#contact">Blog</a></li>
+          </ul>
+        </div>
+  
+      
+     </nav>
+
+    <!-- HERO -->
+      <div class="hero container">
+        <div class="info">
+          <p class="info__subtext">Hello</p>
+          <h1 class="info__title">I am Ismoilov and I am a Frontend Developer</h1>
+        </div>
+        <div class="image">
+          <img src="./public/photo/photo_2025-06-18_12-47-19.jpg" class="img-round" alt="Hero Image" />
+      </div>
+      </div>
+
+    <!-- skills -->
+
+
 
     <script type="module" src="/src/main.ts"></script>
   </body>
