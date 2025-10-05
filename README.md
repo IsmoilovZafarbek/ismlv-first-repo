@@ -1,80 +1,34 @@
-# ---------- 15.05.25 ----------(54)
+# ---------- 05.10.25 ---------- (108)
 
-## Vite App
+## Deploy react app
 
-       ✅ bun install | npm install
-       ✅ bun dev | npm run dev
+         ✅ vercel (github)
+         ✅ netlify (manually, github)
 
-============= DOM =============
+## React dev tools
 
-## DOM -> (Document Object Model)
+         ✅ What is Dev Tool
+         ✅ Components
+         ✅ Profiler
 
-       ✅ What is this DOM ? 👍
-       ✅ Simple example
+## Rendering List
 
-## DOM TREE and Nodes
+         ✅ Todo List
+         ✅ Key props
+         ✅ Rerendering
 
-       ✅ Most using nodes
-           🔷 Element node
-           🔷 Text node
-           🔷 Comment node
-       ✅ Node types
-           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType
+## Handling Events
 
-## Change HTML codes
+         ✅ Using simple event handler
+         ✅ Binding Event handlers
+         ✅ bind with constructor
+         ✅ bind with arrow function
+         ✅ bind render method
+         ✅ Passing event arguments
 
-       ✅ Most using selectors
-           🔷 document.querySelector()
-           🔷 document.querySelectorAll()
-           🔷 document.getElementById()
-           🔷 document.getElementsByClassName()
-           🔷 document.getElementsByTagName()
-       ✅ Write Examples
+## Snippets
 
-## Children Nodes
+         ✅ what is Snippet
+         ✅ Custom snippets for react app
 
-       ✅ Write Examples
-
-## Sibling Nodes
-
-       ✅ Write Examples
-
-## How To Make Changes to the DOM
-
-       ✅ Creating New Nodes
-           🔷 createElement()
-           🔷 createTextNode()
-           🔷 textContent()
-           🔷 innerHTML()
-           🔷 https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML#security_considerations - (cross-site scripting (XSS) )
-           🔷 https://www.youtube.com/watch?v=EoaDgUgS6QA
-       ✅ Inserting Nodes into the DOM
-           🔷 appendChild()
-           🔷 insertBefore()
-           🔷 replaceChild()
-
-       ✅ Removing Nodes from the DOM
-           🔷 removeChild()
-           🔷 remove()
-       ✅ Removing Nodes from the DOM
-           🔷 removeChild()
-           🔷 remove()
-
-## How To Modify Attributes, Classes, and Styles in the DOM
-
-       ✅ Attributes functions
-           🔷 hasAttribute
-           🔷 getAttribute
-           🔷 setAttribute
-           🔷 removeAttribute
-       ✅ Modifying Classes
-           🔷 className
-           🔷 classList.add
-           🔷 classList.remove
-           🔷 classList.toggle
-           🔷 classList.replace
-           🔷 classList.remove
-
-## Links
-
-    ✅ https://www.digitalocean.com/community/tutorials/understanding-the-dom-tree-and-nodes
+https://medium.com/@ralph1786/intro-to-react-component-lifecycle-ac52bf6340c
